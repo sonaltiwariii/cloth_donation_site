@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHARE YOUR WEAR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <div class="container">
+           <div class="heading">
+               <h2>Connect With Us</h2>
+               <p>Fill this form, our team will collect your <span>Donation</span> from your
+                   place.</p>
+           </div>
+       <div class="row">
+           <div class="col-lg-12 mt-5">
+               <form action="connect.php" method="POST" class="contact-form" id="donation-form">
+                   <form class="contact-form">
+                       <div class="row">
+                           <div class="col-lg-12">
+                               <div class="row">
+                                   <div class="col-lg-6">
+                                       <div class="col-lg-12">
+                                           <div class="form-group">
+                                               <input type="text" class="form-control" placeholder="Your_Name" id="Your_Name" name="Your_Name" />
+                                           </div>
+                                       </div>
+                                       <div class="col-lg-12">
+                                           <div class="form-group">
+                                               <input type="text" class="form-control" placeholder="Mobile_No" id="Mobile_No" data-mask="0000000000" name="Mobile_No" />
+                                           </div>
+                                       </div>
+                                       <div class="col-lg-12">
+                                           <div class="form-group">
+                                               <select name="Donation" id="Donation">
+                                                   <option value="">Choose Donation </option>
+
+                                                   <option value="men">men's clothes</option>
+                                                   <option value="women">women's clothes</option>
+                                                   <option value="children">children's clothes</option>
+                                                   
+                                               </select>
+                                           </div>
+                                       </div>
+
+                                   </div>
+                                   <div class="col-lg-6">
+                                       <div class="form-group">
+                                           <input type="text" class="form-control" placeholder="Address" id="Address" name="Address" />
+                                       </div>
+                                       <div class="form-group">
+                                           <input type="text" name="Description" id="description" placeholder="Description" />
+                                       </div>
+                                   </div>
+                                   <div class="col-md-12 mt-3">
+                                       <button>Submit</button>
+
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </form>
+               </form>
+           </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
